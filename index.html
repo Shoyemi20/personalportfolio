@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esther Oyinkansola's Portfolio</title>
+    <title>Esther Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Esther Shoyemi Oyinkansola</h1>
-        <p>Frontend Developer | Problem Solver | Technical Writer</p>
+        <p></p>
     </header>
 
     <nav>
+        <button id="scrollTop" style="display:none;">⬆</button>
+
         <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -27,19 +29,25 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="images/friends3.jpg" alt="Esther Profile Picture" width="150" height="150">
+            <img src="images/friends3.jpg" alt="Esther Profile Picture" width="150" height="250">
             <p>I am a Computer Science graduate passionate about creating seamless user experiences...</p>
         </section>
 
         <section id="gallery">
             <h2>Gallery</h2>
-            <img src="images/friends1.jpg" alt="Friends Group Picture 1" width="200" height="200">
-            <img src="images/friends2.jpg" alt="Friends Group Picture 2" width="200" height="200">
-            <img src="images/friends4.jpg" alt="Friends Group Picture 4" width="200" height="200">
-            <img src="images/friends5.jpg" alt="Friends Group Picture 5" width="200" height="200">
-            <img src="images/friends6.jpg" alt="Friends Group Picture 6" width="200" height="200">
-            <img src="images/friends7.jpg" alt="Friends Group Picture 7" width="200" height="200">
-            <img src="images/friends8.jpg" alt="Friends Group Picture 8" width="200" height="200">
+            <img src="images/friends1.jpg" alt="Friends Group Picture 1" width="150" height="250">
+            <img src="images/friends2.jpg" alt="Friends Group Picture 2" width="150" height="250">
+            <img src="images/friends4.jpg" alt="Friends Group Picture 4" width="150" height="250">
+            <img src="images/friends5.jpg" alt="Friends Group Picture 5" width="150" height="250">
+            <img src="images/friends6.jpg" alt="Friends Group Picture 6" width="150" height="250">
+            <img src="images/friends7.jpg" alt="Friends Group Picture 7" width="150" height="250">
+            <img src="images/friends8.jpg" alt="Friends Group Picture 8" width="150" height="250">
+
+            <div id="lightbox" style="display:none;">
+                <span id="closeLightbox">&times;</span>
+                <img id="lightboxImage" src="" alt="">
+            </div>
+            
         </section>
 
         <section id="skills">
@@ -48,7 +56,7 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>React.js</li>
+                <li>React js</li>
                 <li>Teamwork</li>
                 <li>Technical Writing</li>
             </ul>
@@ -66,6 +74,11 @@
                 <p>Intern (Jul 2021 - Jan 2022)</p>
                 <p>Worked on frontend features emphasizing responsive design and user experience.</p>
             </div>
+            <div>
+                <h3>Federal Airport Authority, FAAN</h3>
+                <p>Industrial Training (OCT 2023 - JAN 2024) </p>
+                <p>Acquired hands-on, real-world experience in an industrial setting, bridging academic knowledge with practical application.</p>
+            </div>
         </section>
 
         <section id="projects">
@@ -73,6 +86,10 @@
             <ul>
                 <li><a href="https://shoyemi20.github.io/Calculator/">Calculator</a>: A simple HTML calculator</li>
                 <li><a href="https://shoyemi20.github.io/flightpage/">Flight Page</a>: A flight booking interface</li>
+                <li><a href="https://mellow-figolla-1d57a3.netlify.app/">Gym Website</a>: A responsive gym website built using React</li>   
+                <li><a href="https://shoyemi20.github.io/Fylo/">File Storage</a>: A file storing page developed using html</li>
+                <li><a href="https://shoyemi20.github.io/Mira/">Sign-in form</a>: A  Mira Technologies sign in page replica</li>
+
             </ul>
         </section>
 
@@ -81,6 +98,7 @@
             <ul>
                 <li><a href="https://medusa.hashnode.dev/javascript-operators-1">JavaScript Operators</a></li>
                 <li><a href="https://medusa.hashnode.dev/introduction-to-the-concept-of-api">Introduction to API</a></li>
+                <li><a href="https://medusa.hashnode.dev/introdution-to-usestate-hooks-in-react-1">Introduction to useState Hooks in React </a></li>
             </ul>
         </section>
 
@@ -88,6 +106,7 @@
             <h2>Contact</h2>
             <p>Email: <a href="mailto:shoyemiesther20@gmail.com">shoyemiesther20@gmail.com</a></p>
             <p>GitHub: <a href="https://github.com/Shoyemi20">github.com/Shoyemi20</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shoyemi-esther">Shoyemi Esther</a></p>
         </section>
     </main>
 
